@@ -1,4 +1,4 @@
 Notes for webdevhelper project
-* Use borders1.html in vicklerpractice (09-background) for displaying bordering. It's very good for that.
+* Use borders1.html and borders2.html and borders3.html and border-radius.html in vicklerpractice (09-background) for displaying bordering. It's very good for that. 
 * Spell out what are basic common options in images
 * Spell out what are basic common options in style for color
