@@ -1,0 +1,19 @@
+These are the notes behind the development of "git-me-in". After some frustration with having to type and do various things, I decided to chain commands together like I learned. Turns out that was very convenient only up to a point. I have therefore created the script git-me-in.py to handle business.
+
+The concept of it's design is as follows:
+*Inputs receive various things such as dir names, comments to commit, and commands.
+*Output them, according to the preset order, to bash shell for execution.
+
+The process of gitting usually is as follows:
+1) git status to observe changes if any
+2) git add plus names or . (all) to add relevant pieces
+3) git commit -m "" to stage again and add notes.
+4) git status to check all went through well and nothing was missed.
+
+Therefore we will:
+1) output to shell via 
+import sys
+sys.stdout.write("git add .")
+2) ask user for commit note 
+var = commitNote
+3)take commitNote and sys.stdout.write("git commit -m"%n") with commitNote's contents
