@@ -17,3 +17,6 @@ sys.stdout.write("git add .")
 2) ask user for commit note 
 var = commitNote
 3)take commitNote and sys.stdout.write("git commit -m"%n") with commitNote's contents
+
+---
+Success. Now for multi-directory
